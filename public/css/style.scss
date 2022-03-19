@@ -1820,7 +1820,7 @@ Video Section CSS
 =================================================*/
 .video-content {
     text-align: center;
-    background-image: url(../../assets/img/video-bg.jpg);
+    background-image: url(../img/video-bg.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -2759,7 +2759,7 @@ Marketing Home Area CSS
 =================================================*/
 .marketing-home-area {
     position: relative;
-    background-image: url(../../assets/img/marketing-agency-bg.jpg);
+    background-image: url(../img/marketing-agency-bg.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -4105,7 +4105,7 @@ Co-operative Section CSS
 }
 .co-operative-content{
     text-align: center;
-    background-image: url(../../assets/img/video-bg-2.jpg);
+    background-image: url(../img/video-bg-2.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -4653,7 +4653,7 @@ Subscribe Two Section CSS
     padding-bottom: 100px;
     background: {
         color: $main-color;
-        image: url(../../assets/img/subscribe-bg.jpg);
+        image: url(../img/subscribe-bg.jpg);
         position: center center;
         size: cover;
         repeat: no-repeat;
@@ -4759,7 +4759,7 @@ SEO Agency Home Area CSS
 =================================================*/
 .seo-agency-home-area {
     position: relative;
-    background-image: url(../../assets/img/seo-agency-bg.png);
+    background-image: url(../img/seo-agency-bg.png);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -5815,7 +5815,7 @@ Page Title Area CSS
 .page-title-area {
     position: relative;
     z-index: 1;
-    background-image: url(../../assets/img/page-title-bg.jpg);
+    background-image: url(../img/page-title-bg.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -6377,7 +6377,7 @@ Coming Soon Area CSS
     z-index: 1;
     height: 100vh;
     background: {
-        image: url(../../assets/img/page-title-bg.jpg);
+        image: url(../img/page-title-bg.jpg);
         position: center center;
         size: cover;
         repeat: no-repeat;
@@ -7237,13 +7237,13 @@ Sidebar Widget Area CSS
                         position: center center !important;
                     }
                     &.bg1 {
-                        background-image: url(../../assets/img/blog-details/1.jpg);
+                        background-image: url(../img/blog-details/1.jpg);
                     }
                     &.bg2 {
-                        background-image: url(../../assets/img/blog-details/2.jpg);
+                        background-image: url(../img/blog-details/2.jpg);
                     }
                     &.bg3 {
-                        background-image: url(../../assets/img/blog-details/3.jpg);
+                        background-image: url(../img/blog-details/3.jpg);
                     }
                 }
             }
@@ -8738,7 +8738,7 @@ Checkout Area CSS
 Footer Section CSS
 =================================================*/
 .footer-section {
-    background-image: url(../../assets/img/footer-bg.jpg);
+    background-image: url(../img/footer-bg.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;

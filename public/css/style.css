@@ -3086,7 +3086,7 @@ Marketing Home Area CSS
   background-color: #3A88FC;
   padding: 14px 25px;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   border-radius: 15px;
@@ -3336,11 +3336,20 @@ What We Do Section CSS
   border: 0;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
   overflow: hidden;
+  transition: 0.5s;
   border-radius: 30px;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.what-we-do-section .ssd:hover, .what-we-do-section .ram:hover{
+  transform: translateY(-0.25em);
 }
 
 .what-we-do-section .ssd .card-header, .what-we-do-section .ram .card-header{
@@ -3383,16 +3392,19 @@ What We Do Section CSS
 }
 
 .what-we-do-section .ssd-banner button{
-  background: #519872;
-  mix-blend-mode: hard-light;
+  background: #64a382;
   border-radius: 15px;
   padding: 15px 25px;
   color: #ffffff;
-  font-weight: 600;
+  font-weight: 500;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
+}
+
+.what-we-do-section .ssd-banner button:hover{
+  background: #3f855f;
 }
 
 .what-we-do-section .ram{
@@ -3401,10 +3413,15 @@ What We Do Section CSS
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
   overflow: hidden;
   border-radius: 30px;
+  transition: 0.5s;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
 }
 
 .what-we-do-section .ram .card-body{
@@ -3427,16 +3444,19 @@ What We Do Section CSS
 }
 
 .what-we-do-section .ram-banner button{
-  background: #7261A3;
-  mix-blend-mode: hard-light;
+  background: #8D7BC0;
   border-radius: 15px;
   padding: 15px 25px;
   color: #ffffff;
-  font-weight: 600;
+  font-weight: 500;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
+}
+
+.what-we-do-section .ram-banner button:hover{
+  background: #816dbb;
 }
 
 .what-we-do-section .all-product{
@@ -3458,13 +3478,17 @@ What We Do Section CSS
 .what-we-do-section .all-product button{
   background: #535353;
   font-weight: 600;
-  padding: 10px 20px;
+  padding: 15px 25px;
   border-radius: 15px;
   color: #ffffff;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
+}
+
+.what-we-do-section .all-product button:hover{
+  background: #424242;
 }
 
 .we-do-content-area span {
@@ -3723,20 +3747,31 @@ Productive Section CSS
   background: #f8f8f8;
 }
 
-.productive-section .col-lg-4.col-md-6.col-sm-6:nth-child(1) .productive-area-content .icon i {
+/* .productive-section .col-lg-4.col-md-6.col-sm-6:nth-child(1) .productive-area-content .icon img {
   background-color: #ffe8cc;
 }
 
-.productive-section .col-lg-4.col-md-6.col-sm-6:nth-child(4) .productive-area-content .icon i {
+.productive-section .col-lg-4.col-md-6.col-sm-6:nth-child(3) .productive-area-content .icon img {
+  background-color: #ffd8d8;
+}
+
+.productive-section .col-lg-4.col-md-6.col-sm-6:nth-child(4) .productive-area-content .icon img {
   background-color: #ffe8cc;
 }
 
-.productive-section .col-lg-4.col-md-6.col-sm-6:nth-child(3) .productive-area-content .icon i {
+
+.productive-section .col-lg-4.col-md-6.col-sm-6:nth-child(6) .productive-area-content .icon img {
   background-color: #ffd8d8;
+} */
+
+.productive-section .col-lg-4.col-md-6.col-sm-6 .productive-area-content .icon{
+  float: left;
+  width: 100px;
+  padding-right: 15px;
 }
 
-.productive-section .col-lg-4.col-md-6.col-sm-6:nth-child(6) .productive-area-content .icon i {
-  background-color: #ffd8d8;
+.productive-section .col-lg-4.col-md-6.col-sm-6 .productive-area-content .content{
+  display: grid;
 }
 
 .productive-title {
@@ -3764,9 +3799,10 @@ Productive Section CSS
 }
 
 .productive-area-content {
-  position: relative;
-  padding-left: 75px;
   margin-bottom: 30px;
+  /* padding-left: 30px; */
+  /* padding-right: 30px; */
+  position: relative;
 }
 
 .productive-area-content .icon i {
@@ -4003,11 +4039,15 @@ Saying Section CSS
   margin: auto;
 }
 
+.saying-slides .owl-item{
+  padding: 20px 25px 30px 25px;
+}
+
 .saying-slides .saying-single-item {
   position: relative;
   margin-top: 70px;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
+  -webkit-transition: 0.5s;
   border-radius: 25px;
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
@@ -4217,7 +4257,7 @@ Provide Section CSS
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(../img/shape/7.png);
+  /* background-image: url(../img/shape/7.png); */
   z-index: -1;
 }
 
@@ -4250,20 +4290,7 @@ Provide Section CSS
 }
 
 .provide-area-content .btn-provide:hover{
-  display: inline-block;
-  color: #3A88FC;
-  background-color: #ffffff;
-  padding: 14px 25px;
-  font-size: 16px;
-  font-weight: 400;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  border-radius: 15px;
-  border: 1px solid #3A88FC;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  -ms-border-radius: 15px;
-  -o-border-radius: 15px;
+  background-color: #0057da;
 }
 
 .provide-area-content .provide-form {

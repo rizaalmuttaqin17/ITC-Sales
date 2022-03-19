@@ -96,7 +96,7 @@
 									<h1>Buat Laptopmu Jadi Lebih Cepat dengan MacSSD</h1>
                                     <p>Tingkatkan kinerja laptop/pcmu sekarang dengan SSD dan rasakan kecepatannya</p>
                                     <div class="marketing-btn">
-                                        <a href="#" class="marketing-btn-one">Detail Produk</a>
+                                        <a href="#" class="marketing-btn-one">Lihat Produk</a>
                                     </div>
 								</div>
                             </div>
@@ -133,34 +133,40 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="row">
                             <div class="col-lg-4">
-                                <div class="card ssd">
-                                    <div class="card-header">
-                                        <img src="{{ asset('img/products/ssd.png') }}" alt="">
+                                <a href="">
+                                    <div class="card ssd">
+                                        <div class="card-header">
+                                            <img src="{{ asset('img/products/ssd.png') }}" alt="">
+                                        </div>
+                                        <div class="card-body text-center">
+                                            <p>SSD SATA III</p>
+                                        </div>
                                     </div>
-                                    <div class="card-body text-center">
-                                        <p>SSD SATA III</p>
-                                    </div>
-                                </div>
+                                </a>
                             </div>
                             <div class="col-lg-4">
-                                <div class="card ssd">
-                                    <div class="card-header">
-                                        <img src="{{ asset('img/products/ssd.png') }}" alt="">
+                                <a href="">
+                                    <div class="card ssd">
+                                        <div class="card-header">
+                                            <img src="{{ asset('img/products/ssd.png') }}" alt="">
+                                        </div>
+                                        <div class="card-body text-center">
+                                            <p>SSD NVMe</p>
+                                        </div>
                                     </div>
-                                    <div class="card-body text-center">
-                                        <p>SSD NVMe</p>
-                                    </div>
-                                </div>
+                                </a>
                             </div>
                             <div class="col-lg-4">
-                                <div class="card ssd">
-                                    <div class="card-header">
-                                        <img src="{{ asset('img/products/ssd.png') }}" alt="">
+                                <a href="">
+                                    <div class="card ssd">
+                                        <div class="card-header">
+                                            <img src="{{ asset('img/products/ssd.png') }}" alt="">
+                                        </div>
+                                        <div class="card-body text-center">
+                                            <p>SSD M.2</p>
+                                        </div>
                                     </div>
-                                    <div class="card-body text-center">
-                                        <p>SSD M.2</p>
-                                    </div>
-                                </div>
+                                </a>
                             </div>
                         </div>
                         <div class="card ssd-banner mt-4">
@@ -192,34 +198,40 @@
                         </div>
                         <div class="row mt-4">
                             <div class="col-lg-4">
-                                <div class="card ram">
-                                    <div class="card-header">
-                                        <img src="{{ asset('img/products/ssd.png') }}" alt="">
+                                <a href="">
+                                    <div class="card ram">
+                                        <div class="card-header">
+                                            <img src="{{ asset('img/products/ssd.png') }}" alt="">
+                                        </div>
+                                        <div class="card-body text-center">
+                                            <p>DDR3 SODIMM</p>
+                                        </div>
                                     </div>
-                                    <div class="card-body text-center">
-                                        <p>DDR3 SODIMM</p>
-                                    </div>
-                                </div>
+                                </a>
                             </div>
                             <div class="col-lg-4">
-                                <div class="card ram">
-                                    <div class="card-header">
-                                        <img src="{{ asset('img/products/ssd.png') }}" alt="">
+                                <a href="">
+                                    <div class="card ram">
+                                        <div class="card-header">
+                                            <img src="{{ asset('img/products/ssd.png') }}" alt="">
+                                        </div>
+                                        <div class="card-body text-center">
+                                            <p>DDR4 SODIMM</p>
+                                        </div>
                                     </div>
-                                    <div class="card-body text-center">
-                                        <p>DDR4 SODIMM</p>
-                                    </div>
-                                </div>
+                                </a>
                             </div>
                             <div class="col-lg-4">
-                                <div class="card ram">
-                                    <div class="card-header">
-                                        <img src="{{ asset('img/products/ssd.png') }}" alt="">
+                                <a href="">
+                                    <div class="card ram">
+                                        <div class="card-header">
+                                            <img src="{{ asset('img/products/ssd.png') }}" alt="">
+                                        </div>
+                                        <div class="card-body text-center">
+                                            <p>DDR3 UDIMM</p>
+                                        </div>
                                     </div>
-                                    <div class="card-body text-center">
-                                        <p>DDR3 UDIMM</p>
-                                    </div>
-                                </div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -248,8 +260,93 @@
             </div>
         </section>
         <!-- End What We Do Section -->
+        
+        <!-- Start Productive Section -->
+        <section class="productive-section">
+            <div class="container">
+                <div class="productive-title">
+                    <h3>Kenapa Harus Upgrade?</h3>
+                    <p>Seiring berjalannya waktu, performa Laptop/PC kamu pasti akan menurun. Daripada beli baru, mending diupgrade aja! Yuk simak keuntungan dari upgrade Laptop/PC kamu!</p>
+                </div>
 
-        <!-- Start Blog Section -->
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="productive-area-content">
+                            <div class="icon">
+                                <img src="{{ asset('img/icon/booting.png') }}" alt="">
+                            </div>
+                            <div class="content">
+                                <h3>Booting Lebih Cepat</h3>
+                                <p>Hanya perlu hitungan detik saja untuk masuk ke menu Windows sejak perangkat dinyalakan</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="productive-area-content">
+                            <div class="icon">
+                                <img src="{{ asset('img/icon/guncangan.png') }}" alt="">
+                            </div>
+                            <div class="content">
+                                <h3>Tahan Guncangan</h3>
+                                <p>SSD tidak memiliki komponen bergerak, sehingga data tidak akan rusak jika terjatuh</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="productive-area-content">
+                            <div class="icon">
+                                <img src="{{ asset('img/icon/rupiah.png') }}" alt="">
+                            </div>
+                            <div class="content">
+                                <h3>Hemat Biaya</h3>
+                                <p>Dengan melakukan upgrade, anda akan menghemat lebih banyak dibandingkan harus membeli unit baru</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="productive-area-content">
+                            <div class="icon">
+                                <img src="{{ asset('img/icon/gaming.png') }}" alt="">
+                            </div>
+                            <div class="content">
+                                <h3>Gaming Jadi Ngebut</h3>
+                                <p>Dengan upgrade RAM dan SSD proses rendering grafis dan load data pada game jadi super cepat</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="productive-area-content">
+                            <div class="icon">
+                                <img src="{{ asset('img/icon/flash.png') }}" alt="">
+                            </div>
+                            <div class="content">
+                                <h3>Akses Data Cepat</h3>
+                                <p>SSD memproses data dengan transfer partikel dalam chip. Jadi, tidak ada jeda dalam pemrosesan data</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="productive-area-content">
+                            <div class="icon">
+                                <img src="{{ asset('img/icon/multitasking.png') }}" alt="">
+                            </div>
+                            <div class="content">
+                                <h3>Multitasking Lebih Smooth</h3>
+                                <p>Menjalankan banyak aplikasi sekaligus akan terasa ringan tanpa hambatan</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Productive Section -->
+
+        {{-- <!-- Start Blog Section -->
         <section class="blog-section startup-blog pt-100 pb-70">
             <div class="container">
                 <div class="blog-title">
@@ -358,7 +455,7 @@
         </section>
         <!-- End Blog Section -->
 
-        {{-- <!-- Start History Section -->
+        <!-- Start History Section -->
         <section class="history-section ptb-100">
             <div class="container-fluid">
                 <div class="row align-items-center">
@@ -382,79 +479,6 @@
             </div>
         </section>
         <!-- End History Section -->
-
-        <!-- Start Productive Section -->
-        <section class="productive-section">
-            <div class="container">
-                <div class="productive-title">
-                    <h3>Our Productive Services is Ready</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolet, consectetur adipiscing  seore suspendisse ultrices gravir.</p>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="productive-area-content">
-                            <div class="icon">
-                                <i class="flaticon-headphones"></i>
-                            </div>
-                            <h3>Customer Assistance</h3>
-                            <p>Lorem ipsum dolor sitamet cosectetur adipising elit sed do eiusmod tempor.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="productive-area-content">
-                            <div class="icon">
-                                <i class="flaticon-tag"></i>
-                            </div>
-                            <h3>Affordable Prices</h3>
-                            <p>Lorem ipsum dolor sitamet cosectetur adipising elit sed do eiusmod tempor.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="productive-area-content">
-                            <div class="icon">
-                                <i class="flaticon-cyber-security"></i>
-                            </div>
-                            <h3>Global Presence</h3>
-                            <p>Lorem ipsum dolor sitamet cosectetur adipising elit sed do eiusmod tempor.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="productive-area-content">
-                            <div class="icon">
-                                <i class="flaticon-innovation"></i>
-                            </div>
-                            <h3>Innovative Ideas</h3>
-                            <p>Lorem ipsum dolor sitamet cosectetur adipising elit sed do eiusmod tempor.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="productive-area-content">
-                            <div class="icon">
-                                <i class="flaticon-content"></i>
-                            </div>
-                            <h3>Content Marketing</h3>
-                            <p>Lorem ipsum dolor sitamet cosectetur adipising elit sed do eiusmod tempor.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="productive-area-content">
-                            <div class="icon">
-                                <i class="flaticon-unlink"></i>
-                            </div>
-                            <h3>Pro Building Services</h3>
-                            <p>Lorem ipsum dolor sitamet cosectetur adipising elit sed do eiusmod tempor.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Productive Section -->
 
         <!-- Start Project Section -->
         <section class="project-section pb-70 pt-70">
@@ -614,7 +638,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-12">
                         <div class="provide-image">
-                            <img src="{{ asset('img/provide.jpg') }}" alt="image">
+                            <img src="{{ asset('img/home/customer-service.png') }}" alt="image">
                         </div>
                     </div>
 
@@ -739,7 +763,7 @@
                 <div class="copyright-area">
                     <div class="row align-items-center">
                         <div class="col-lg-6 col-sm-6 col-md-6">
-                            <p>Copyright ©2022. All Rights Reserved by 
+                            <p>Copyright ©{{  \Carbon\Carbon::now()->year }}. All Rights Reserved by 
                                 <a href="https://themeforest.net/user/hibootstrap/portfolio" target="_blank">ITC Samarinda</a>
                             </p>
                         </div>
